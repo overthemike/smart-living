@@ -1,0 +1,20 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cross-env": "^5.1.1",
+    "normalize.css": "^7.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.17",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.76.0"
+  },
+  "scripts": {
+    "start": "cross-env NODE_PATH=src/ react-scripts start",
+    "build": "cross-env NODE_PATH=src/ react-scripts build && mv build/* ../server/public",
+    "test": "cross-env NODE_PATH=src/ react-scripts test --env=jsdom",
+    "eject": "cross-env NODE_PATH=src/ react-scripts eject"
+  }
+}

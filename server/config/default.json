@@ -1,0 +1,10 @@
+{
+    "db": {
+        "host":"localhost",
+        "user":"smartliving",
+        "password":"&v$(J/5N#DN^9g3W",
+        "database":"smartlivingfinancial"
+    },
+    "secret":")#7f*-uz9vEsvuGh",
+    "sessionLengthInSeconds": 315360000 // 10 years
+}
