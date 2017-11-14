@@ -1,17 +1,5 @@
 import React, { Component } from 'react'
-import {
-  Button,
-  Container,
-  Divider,
-  Grid,
-  Header,
-  Icon,
-  Image,
-  List,
-  Menu,
-  Segment,
-  Visibility,
-} from 'semantic-ui-react'
+import { Button, Container, Divider,  Grid,  Header,  Icon,  Image,  List,  Menu,  Segment, Visibility,} from 'semantic-ui-react'
 
 const FixedMenu = () => (
   <Menu fixed='top' size='large'>
@@ -72,7 +60,7 @@ export default class HomepageLayout extends Component {
             <Container text>
               <Header
                 as='h1'
-                content='Imagine-a-Company'
+                content='Smart Living'
                 inverted
                 style={{ fontSize: '4em', fontWeight: 'normal', marginBottom: 0, marginTop: '3em' }}
               />
