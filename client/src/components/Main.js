@@ -39,6 +39,7 @@ export default class HomepageLayout extends Component {
           once={false}
         >
           <Segment
+            id = 'hero'
             inverted
             textAlign='center'
             style={{ minHeight: 100, padding: '1em 0em' }}
@@ -58,6 +59,9 @@ export default class HomepageLayout extends Component {
             </Container>
 
             <Container text>
+              <Header
+                background='blue'
+              />
               <Header
                 as='h1'
                 content='Smart Living'
@@ -157,17 +161,13 @@ export default class HomepageLayout extends Component {
                   <List link inverted>
                     <List.Item as='a'>Sitemap</List.Item>
                     <List.Item as='a'>Contact Us</List.Item>
-                    <List.Item as='a'>Religious Ceremonies</List.Item>
-                    <List.Item as='a'>Gazebo Plans</List.Item>
                   </List>
                 </Grid.Column>
                 <Grid.Column width={3}>
                   <Header inverted as='h4' content='Services' />
                   <List link inverted>
-                    <List.Item as='a'>Banana Pre-Order</List.Item>
+                    <List.Item as='a'>Pricing</List.Item>
                     <List.Item as='a'>DNA FAQ</List.Item>
-                    <List.Item as='a'>How To Access</List.Item>
-                    <List.Item as='a'>Favorite X-Men</List.Item>
                   </List>
                 </Grid.Column>
                 <Grid.Column width={7}>
